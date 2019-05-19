@@ -9,6 +9,7 @@
   "author": "sai.jonnala",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.0",
     "lodash": "^4.17.11"
   },
   "devDependencies": {

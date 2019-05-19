@@ -1,8 +1,23 @@
 import _ from 'lodash';
-import * as utils from './utils';
+import fs from 'fs';
+import express from 'express';
 
-console.log(utils.add(5, 3));
 
-const arr = [1, 2, 3, 4, 5, 6, 78, 89, 9];
+const app = express();
+const port = 65345;
 
-_.each(arr, a => console.log(a));
+
+const fileServHandler = (request, response) => {
+  // download file from location
+  // file url: https://s3.amazonaws.com/jspreddy-gov-data/nyc-taxi-tlc/yellow_tripdata_2017-01.csv
+
+  // send file to user.
+};
+
+app.get('/file', fileServHandler);
+
+
+app.listen(
+  port,
+  () => console.log(`App listening on port ${port}`),
+);
