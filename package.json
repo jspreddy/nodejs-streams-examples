@@ -4,10 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "first": "npx nodemon --exec babel-node src/01_first.js",
-    "second": "npx nodemon --exec babel-node src/02_second.js",
-    "third": "npx nodemon --exec babel-node src/03_third.js",
-    "fourth": "npx nodemon --exec babel-node src/04_fourth.js"
+    "start": "npx nodemon --exec babel-node "
   },
   "author": "sai.jonnala",
   "license": "ISC",
