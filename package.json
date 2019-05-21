@@ -2,9 +2,12 @@
   "name": "nodejs-streams-examples",
   "version": "1.0.0",
   "description": "",
-  "main": "/src/index.js",
+  "main": "",
   "scripts": {
-    "start": "npx nodemon --exec babel-node src/index.js"
+    "first": "npx nodemon --exec babel-node src/01_first.js",
+    "second": "npx nodemon --exec babel-node src/02_second.js",
+    "third": "npx nodemon --exec babel-node src/03_third.js",
+    "fourth": "npx nodemon --exec babel-node src/04_fourth.js"
   },
   "author": "sai.jonnala",
   "license": "ISC",
