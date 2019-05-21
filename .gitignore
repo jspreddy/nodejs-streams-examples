@@ -2,3 +2,5 @@
 node_modules/
 assets/big.txt
 assets/yellow_tripdata_2017-01.csv
+destination/**
+!destination/placeholder
