@@ -1,7 +1,15 @@
-// Transform streams
+// Example taken from: https://nodejs.org/api/zlib.html#zlib_zlib
 
-// read from big.txt
+import zlib from 'zlib';
+import fs from 'fs';
 
-// UPPER CASE transform stream.
 
-// output to std out.
+// create a zlib stream
+const gzip = zlib.createGzip();
+
+const bigFile = './assets/yellow_tripdata_2017-01.csv';
+
+const readStream = fs.createReadStream(bigFile);
+const writeStream = fs.createWriteStream('./destination/gzipped.csv.gz');
+
+readStream.pipe(gzip).pipe(writeStream);

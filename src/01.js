@@ -1,6 +1,8 @@
 import _ from 'lodash';
 import fs from 'fs';
 
+process.title = 'streams';
+
 const smallFile = './assets/test.txt';
 
 // Download the following file to ./assets/
