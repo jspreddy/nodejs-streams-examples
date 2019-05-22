@@ -22,4 +22,8 @@ $> npm run start ./src/01.js
     * File System: https://nodejs.org/api/fs.html
 2. A good article in the wild: https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93
 3. Transform an image: https://www.bandwidth.com/blog/weekend-coding-streaming-image-manipulations-with-node-js/
+4. Backpressure in streams: https://nodejs.org/en/docs/guides/backpressuring-in-streams/
 
+# Cool libraries
+
+1. https://highlandjs.org/
