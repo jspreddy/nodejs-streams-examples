@@ -1,6 +1,6 @@
 # Setup:
 
-1. Open terminal in the root folder
+1. Open terminal in the project root folder
 2. Install using `npm install`
 3. cd into the `assets` folder
 4. download the files: run the following commands.
